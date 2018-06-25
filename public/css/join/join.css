@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-weight: normal;
+}
+ul,li {
+    list-style: none;
+}
+
+.content1040 {
+    width: 1040px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    display: block;
+    content: "";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+/*nav-top*/
+.nav-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 10;
+    background: #000;
+}
+.nav-top a:hover {
+    color: #02a2fa;
+}
+/*.nav-top:hover {
+    transition: all .5s;
+}*/
+.nav-hover {
+    background: #000;
+}
+.nav-top li {
+    margin:0 20px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+}
+.nav-top li a {
+    color: #fff;
+}
+.nav-top .h1-wrapper h1{
+    font-size: 18px;
+}
+
+/*banner*/
+.banner {
+    width: 100%;
+    height: 250px;
+    margin-top: 60px;
+    background: url('/public/img/about/join-us.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.tab-wrapper {
+    margin-top:60px;
+}
+
+.tab-wrapper .tab-head {
+    width: 200px;
+}
+.tab-wrapper .tab-head li {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.tab-head li p {
+    width: 180px;
+    margin: 0 10px;
+    color: #666;
+    line-height: 50px;
+    background-color: #f6f6f6;
+}
+.tab-wrapper .tab-head li.active {
+    border-radius: 10px;
+    background: #2080cc;
+}
+.tab-head li.active p {
+    background-color: transparent;
+    color: #fff;
+}
+.tab-wrapper .tab-body {
+    margin-left: 80px;
+    width: 750px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.tab-body li {
+    display: none;
+}
+.tab-body li.active {
+    display: block;
+}
+.tab-body h3{
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.tab-body p {
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    padding: 50px 0 40px;
+    background-color: #2e3033;
+}
+.footer p {
+    font-size: 12px;
+    line-height: 25px;
+    color: #fff;
+}
+.footer .erweima-wrapper {
+    margin-left: 120px;
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+}
+
+.footer .erweima-wrapper .erweima {
+    width: 100%;
+    height: 100%;
+}
+.footer .company-addresses {
+    width: 374px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.footer .contact-methods {
+    margin-left: 20px;
+}
+.copyright {
+    margin-top: 33px;
+    text-align: center;
+}
+

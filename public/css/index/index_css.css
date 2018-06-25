@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-weight: normal;
+}
+ul,li {
+    list-style: none;
+}
+
+.content1040 {
+    width: 1040px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    display: block;
+    content: "";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+/*nav-top*/
+.nav-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 10;
+}
+.nav-top a:hover {
+    color: #02a2fa;
+}
+.nav-top:hover {
+    background: rgba(0,0,0, .5);
+    transition: all .5s;
+}
+.nav-hover {
+    background: rgba(0,0,0, .5);
+    transition: all .5s;
+}
+.nav-top li {
+    margin:0 20px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+}
+.nav-top li a {
+    color: #fff;
+}
+.nav-top .h1-wrapper h1{
+    font-size: 18px;
+}
+
+.h1-wrapper .logo-h1 a{
+    display: block;
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    background: url('/public/img/LOGO.png') center no-repeat;
+    background-size: 100% 100%;
+}
+/*banner*/
+.banner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.banner .banner-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300%;
+}
+.banner-wrapper .banner-item {
+    float: left;
+    width: 1920px;
+    height: 500px;
+}
+.banner-item img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.banner .rslides_nav  {
+    position: absolute;
+    width: 45px;
+    height: 70px;
+    top: 50%;
+    margin-top: -35px;
+    color: transparent;
+    z-index: 15;
+}
+.banner .prev  {
+    left: 0;
+    background: url('/public/img/left0.png') center no-repeat;
+}
+.banner .next {
+    right: 0;
+    background: url('/public/img/right0.png') center no-repeat;
+}
+.banner .rslides_tabs {
+    position: absolute;
+    bottom: 20px;
+    clear: both;
+    z-index: 10;
+    left: 50%;
+    margin-left: -90px;
+}
+.banner .rslides_tabs li {
+    float: left;
+    margin-right: 20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    line-height: 15px;
+    text-align: center;
+    border: 1px solid #fff;
+    background: transparent;
+    color: transparent;
+}
+.banner .rslides_tabs li a {
+    color: transparent;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.banner li.rslides_here {
+    background: #fff;
+}
+    /*characters*/
+
+.characters {
+    width: 100%;
+    height: 440px;
+}
+.characters .content1040 {
+    position: relative;
+}
+
+.characters .content1040 .character-item {
+    display: block;
+    width: 33%;
+    height: 380px;
+    text-align: center;
+    padding-top: 28px;
+}
+
+.characters .character-item .character-icon {
+    width: 56px;
+    height: 64px;
+}
+
+.characters .character-item .character-title {
+    margin-top: 34px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #2e3033;
+    text-align: center;
+}
+.character-item p.hover-orange {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #666;
+}
+.character-item p.hover-orange:hover {
+    color: #fc9651;
+}
+.character-item:hover {
+    box-shadow:  0 0 50px #888;
+}
+.characters .line {
+    position: absolute;
+    width: 1px;
+    height: 236px;
+    top: 120px;
+    background: #e2e6e9;
+}
+.characters .line1 {
+    left: 33%;
+}
+.characters .line2 {
+    left: 66%;
+}
+
+/*video*/
+.video-show {
+    width: 100%;
+    background: #f6f6f6;
+    padding-bottom: 40px;
+}
+
+.video-show h2 {
+    line-height: 92px;
+    color: #2e3033;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+}
+.video-show .fill-video-poster {
+    width: 1024px;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/*partner*/
+.partner {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.partner h2 {
+    line-height: 111px;
+    font-size: 18px;
+    color: #2e3033;
+    text-align: center;
+}
+.partner .icon-list-container {
+    margin: 0 39px 36px;
+}
+
+.icon-list-container li {
+    width: 20%;
+    height: 92px;
+    text-align: center;
+    line-height: 92px;
+}
+.icon-list-container li img {
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.icon-list-container li:hover {
+    box-shadow: 0 0 40px #888;
+}
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    padding: 50px 0 40px;
+    background-color: #2e3033;
+}
+.footer p {
+    font-size: 12px;
+    line-height: 25px;
+    color: #fff;
+}
+.footer .erweima-wrapper {
+    margin-left: 120px;
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+}
+
+.footer .erweima-wrapper .erweima {
+    width: 100%;
+    height: 100%;
+}
+.footer .company-addresses {
+    width: 374px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.footer .contact-methods {
+    margin-left: 20px;
+}
+.copyright {
+    margin-top: 33px;
+    text-align: center;
+}
+
