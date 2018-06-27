@@ -57,7 +57,14 @@ ul,li {
 .nav-top .h1-wrapper h1{
     font-size: 18px;
 }
-
+.h1-wrapper .logo-h1 a{
+    display: block;
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    background: url('/public/img/LOGO.png') center no-repeat;
+    background-size: 100% 100%;
+}
 /*banner*/
 .banner {
     width: 100%;

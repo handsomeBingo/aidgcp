@@ -25,7 +25,14 @@ ul,li {
     visibility: hidden;
     clear: both;
 }
-
+.h1-wrapper .logo-h1 a{
+    display: block;
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    background: url('/public/img/LOGO.png') center no-repeat;
+    background-size: 100% 100%;
+}
 /*nav-top*/
 .nav-top {
     position: fixed;
@@ -118,8 +125,8 @@ ul,li {
 }
 
 .our-team .organization-arch {
-    height: 200px;
-    background: url(../../img/about/organization-arc.png) center no-repeat;
+    height: 267px;
+    background: url(../../img/about/arch.png) center no-repeat;
 }
 .our-team .staff-edu-condition {
     height: 240px;
