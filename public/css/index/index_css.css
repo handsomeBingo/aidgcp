@@ -71,21 +71,21 @@ ul,li {
 .banner {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 400px;
     overflow: hidden;
 }
 .banner .banner-wrapper {
     position: absolute;
     left: 0;
     top: 0;
-    width: 300%;
+    width: 100%;
 }
 .banner-wrapper .banner-item {
     float: left;
-    width: 1920px;
-    height: 500px;
+    width: 100%;
+    height: 400px;
 }
-.banner-item img{
+.banner-item img {
     width: 100%;
     height: 100%;
     vertical-align: middle;
@@ -154,9 +154,22 @@ ul,li {
     padding-top: 28px;
 }
 
-.characters .character-item .character-icon {
-    width: 56px;
-    height: 64px;
+.characters .character-item .characters-icon {
+    display: inline-block;
+    width: 77px;
+    height: 77px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+.characters-icon1 {
+    background: url('/public/img/index-item1.png') no-repeat;
+}
+.characters-icon2 {
+    background: url('/public/img/index-item2.png') no-repeat;
+}
+.characters-icon3 {
+    background: url('/public/img/index-item3.png') no-repeat;
 }
 
 .characters .character-item .character-title {

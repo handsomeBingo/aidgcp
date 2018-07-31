@@ -121,8 +121,9 @@ ul,li {
 
 .map-wrapper p {
     margin-top: 15px;
+    margin-bottom: 50px;
     width: 884px;
-    height: 848px;
+    height: 548px;
     background: url('/public/img/about/map.jpg') center no-repeat;
 }
 
